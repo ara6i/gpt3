@@ -1,0 +1,9 @@
+.container {
+    @apply flex justify-center mt-5
+}
+.brand {
+    @apply flex list-none
+}
+.brand img {
+    @apply w-3/6
+}

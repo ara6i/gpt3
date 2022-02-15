@@ -1,0 +1,45 @@
+.container {
+  @apply mt-10 flex justify-between mx-20;
+}
+.content {
+  @apply flex flex-col justify-center gap-5;
+}
+.title {
+  @apply w-full text-5xl;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.description {
+  @apply text-text;
+}
+.email {
+  @apply flex;
+}
+.inpt {
+  flex: 0.5;
+}
+.input {
+  @apply bg-blog border-none p-2 h-12 w-full rounded-sm;
+}
+.btn {
+  flex: 0.2;
+}
+.button {
+  @apply text-white bg-button p-2 h-12 border-none rounded-sm w-full;
+}
+.people {
+  @apply flex gap-5;
+}
+.people img {
+  @apply w-1/6;
+}
+.p {
+  @apply text-white;
+}
+.bg {
+  @apply w-2/5;
+}
+.bg img {
+  @apply w-full h-full;
+}

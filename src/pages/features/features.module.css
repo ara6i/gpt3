@@ -1,0 +1,18 @@
+.row {
+  @apply flex justify-between items-center p-10 border-t-8 border-white;
+}
+.col {
+  @apply flex flex-col gap-10 p-10;
+}
+.title {
+  @apply border-t-8 border-white ;
+}
+.title h2 {
+  @apply text-white w-full;
+}
+.text {
+  @apply w-2/4 text-text;
+}
+.full {
+  @apply w-full text-text;
+}

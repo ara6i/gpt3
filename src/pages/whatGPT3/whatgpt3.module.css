@@ -1,0 +1,12 @@
+.container {
+  @apply mx-20 mt-20 bg-footer  rounded-sm;
+}
+.title {
+  @apply ml-10;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.desc {
+  @apply flex justify-between mt-10 items-center;
+}
